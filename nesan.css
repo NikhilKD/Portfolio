@@ -854,11 +854,11 @@ i:hover {
     top: 10%;
   }
   .card-part-1 {
-    top: 164%;
+    top: 148%;
     left: 6%;
   }
   .card-part-2 {
-    top: 164%;
+    top: 148%;
     left: 68%;
   }
   #line {
@@ -1454,7 +1454,7 @@ i:hover {
   flex-direction: column;
   position: fixed;
   left: 0%;
-  top: -27%;
+  top: -16%;
   z-index: -35;
   opacity: 50%;
 }
