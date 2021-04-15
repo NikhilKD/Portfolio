@@ -252,8 +252,8 @@ a:hover {
 }
 /* Mobile Navbar */
 :root {
-  --primary-color: rgb(3, 149, 247);
-  --overlay-color: rgba(20, 33, 110, 0.85);
+  --primary-color: rgb(247, 3, 3);
+  --overlay-color: rgba(110, 20, 20, 0.85);
   --menu-speed: 0.75s;
 }
 @media (min-width: 700px) and (max-width: 1600px) {
@@ -409,7 +409,7 @@ nav::after {
   position: absolute;
   width: 3rem;
   height: 2px;
-  background-color: blue;
+  background-color: black;
   top: 0;
   left: 0;
   right: 0;
@@ -458,7 +458,7 @@ nav {
 .brand {
   font-size: 1.5rem;
   color: white;
-  background-color: rgba(52, 16, 255, 0.849);
+  background-color: rgb(255, 16, 48);
   padding: 0 1rem;
   text-decoration: none;
   position: absolute;
@@ -475,7 +475,7 @@ nav ul {
 
 .nav-link {
   font-size: 29px;
-  color: blue;
+  color: red;
   margin-right: 2rem;
   padding: 0 1rem;
   display: block;
@@ -498,7 +498,7 @@ nav ul {
 }
 
 .nav-link::after {
-  background-color: blue;
+  background-color: red;
   content: attr(data-text);
   position: absolute;
   left: 0;
