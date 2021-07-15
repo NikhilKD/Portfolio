@@ -9,17 +9,12 @@ body {
   flex-direction: row;
 }
 
-#heading1 {
-  font-size: 50px;
+h2 {
+  font-size: 30px;
+  font-family: "Fredoka One", cursive;
+  color: white;
 }
-#heading1 a[target="_self"] {
-  text-decoration: none;
-  font-size: 45px;
-}
-#heading2 a[target="_self"] {
-  text-decoration: none;
-  font-size: 45px;
-}
+
 
 #heading1 a[target="_self"]:hover {
   color: red;
@@ -28,18 +23,10 @@ body {
   color: red;
 }
 
-#heading2 {
-  font-size: 40px;
-}
-
-.style {
-  font-family: "Fredoka One", cursive;
-  color: white;
-}
 #index1 {
   display: flex;
   flex-direction: column;
-  margin-top: -65%;
+  margin-top: -57%;
   margin-left: 55%;
 }
 .card-part-1 {
@@ -208,11 +195,11 @@ body {
   height: 221px;
 }
 
-.heading:hover {
+h2:hover {
   color: red;
 }
 
-#heading1:hover {
+h2:hover {
   color: red;
 }
 
@@ -221,9 +208,7 @@ a[target] {
   color: white;
   text-decoration: none;
 }
-a:hover {
-  color: black;
-}
+
 
 #like {
   color: red;
@@ -801,7 +786,7 @@ i:hover {
 
 @media (min-width: 320px) and (max-width: 374.98px) {
   #index1 {
-    margin-top: 2%;
+    margin-top:-33%;
     margin-left: 7%;
   }
   .menu {
@@ -816,16 +801,12 @@ i:hover {
   .about {
     width: 120%;
   }
-  #index1 {
-    margin-top: -42%;
-  }
   #info {
     width: 100%;
+    font-size: 16px;
   }
   #like {
-    margin-left: 5%;
-    position: absolute;
-    top: 10%;
+    display: none;
   }
   .card-part-1 {
     top: 148%;
@@ -840,6 +821,9 @@ i:hover {
   }
   #line2 {
     display: none;
+  }
+  .content{
+    width: 104px;
   }
   .card1 {
     width: 200px;
@@ -939,11 +923,10 @@ i:hover {
   }
   #info {
     width: 100%;
+    font-size: 18px;
   }
   #like {
-    margin-left: 5%;
-    position: absolute;
-    top: 13%;
+    display: none;
   }
   .card-part-1 {
     top: 151%;
@@ -955,6 +938,9 @@ i:hover {
   }
   #line {
     display: none;
+  }
+  .content{
+    width: 104px;
   }
   #line2 {
     display: none;
@@ -1047,9 +1033,10 @@ i:hover {
     width: 120%;
   }
   #like {
-    margin-left: 5%;
-    position: absolute;
-    top: 13%;
+    display: none;
+  }
+  .content{
+    width: 104px;
   }
   .card-part-1 {
     top: 161%;
@@ -1152,6 +1139,9 @@ i:hover {
   }
   .about {
     width: 120%;
+  }
+  .content{
+    width: 104px;
   }
   #like {
     margin-left: 108%;
