@@ -228,6 +228,10 @@ a[target] {
   display: flex;
   flex-direction: row;
 }
+.nav-link:focus, .nav-link:hover {
+  text-decoration: none;
+  color: white;
+}
 
 #like:hover {
   background: #f40303;
@@ -755,7 +759,7 @@ h3 {
   font-family: "Josefin Sans", sans-serif;
 }
 p {
-  color: gray;
+  color: white;
   font-size: 20px;
   font-family: "Acme", sans-serif;
 }
@@ -1390,7 +1394,10 @@ i:hover {
   font-family: "Fredoka One", cursive;
   color: white;
   font-size: 30px;
+  text-align: center;
+  margin:5% 0%;
 }
+
 
 #skillsLogo img {
   width: 78px;
@@ -1478,6 +1485,7 @@ i:hover {
     margin-left: 20%;
   }
 
+
   .discription {
     width: 100%;
   }
@@ -1496,7 +1504,10 @@ i:hover {
   #about-content {
     margin-left: 8%;
   }
-
+  .service-card{
+    position: relative;
+    right: 0%;
+  }
   .banner {
     left: -40%;
     top: -17%;
@@ -1539,6 +1550,10 @@ i:hover {
   display: flex;
   flex-direction: row;
 }
+.service-card{
+  position: relative;
+  right: 25%;
+}
 .container {
   width: 953px;
   display: flex;
@@ -1551,9 +1566,10 @@ i:hover {
   position: relative;
   width: 250px;
   height: 300px;
-  margin: 15px;
+  margin: 15%;
   overflow: hidden;
 }
+
 
 .container .card span {
   position: absolute;
@@ -1873,3 +1889,4 @@ i:hover {
   text-align: center;
   position: relative;
 }
+
